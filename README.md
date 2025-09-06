@@ -45,8 +45,8 @@ Designed with a sleek and elegant layout, this website showcases services, proje
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/pawantech12/luxe-interior-website.git
-cd luxe-interior-website
+git clone https://github.com/javeriajawed23/ModernSpace_Studio_Interior_Website.git
+cd ModernSpace_Studio_Interior_Website
 
   * Built with **Shadcn UI components** for a polished look
 
