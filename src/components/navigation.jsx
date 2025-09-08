@@ -28,7 +28,7 @@ export default function Navigation() {
             <Link href="/" className="flex items-center space-x-2">
               <Home className="h-8 w-8 text-primary" />
               <span className="text-xl font-bold text-foreground">
-                ModernSpace Studio
+                DcInteriors
               </span>
             </Link>
           </div>

@@ -53,9 +53,10 @@ export default function ServicesOverview() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 animate-slide-up">
           <h2 className="mb-4">Our Design Services</h2>
-          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            ModernSpace Studio offers a wide range of interior design services
-            crafted to meet your unique style, needs, and aspirations.
+                    <p className="text-muted-foreground text-lg leading-relaxed">
+            Design Concept Interiors offers a wide range of interior design services
+            tailored to bring your vision to life. From residential to commercial
+            spaces, we create environments that inspire and delight.
           </p>
         </div>
 

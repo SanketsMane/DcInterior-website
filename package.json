@@ -1,12 +1,38 @@
 {
-  "name": "luxe-interior-website",
-  "version": "0.1.0",
-  "private": true,
+  "name": "dcinteriors-website",
+  "version": "1.0.0",
+  "private": false,
+  "description": "DcInteriors - Design Concept Interiors website built with Next.js for Pune Baner interior design services",
+  "author": {
+    "name": "Sanket Mane",
+    "email": "sanketmane.dev@gmail.com",
+    "url": "https://github.com/SanketsMane"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SanketsMane/DcInterior-website.git"
+  },
+  "homepage": "https://github.com/SanketsMane/DcInterior-website#readme",
+  "bugs": {
+    "url": "https://github.com/SanketsMane/DcInterior-website/issues"
+  },
+  "keywords": [
+    "interior-design",
+    "nextjs",
+    "tailwindcss",
+    "pune-baner",
+    "dcinteriors",
+    "design-concept-interiors",
+    "website",
+    "responsive"
+  ],
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
+    "build:static": "next build && next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy:preview": "npm run build:static"
   },
   "dependencies": {
     "@radix-ui/react-label": "^2.1.7",
@@ -23,10 +49,13 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@types/node": "^24.3.1",
+    "@types/react": "^19.1.12",
     "autoprefixer": "^10.4.21",
     "eslint": "^9",
     "eslint-config-next": "15.4.6",
     "postcss": "^8.5.6",
-    "tailwindcss": "3"
+    "tailwindcss": "3",
+    "typescript": "^5.9.2"
   }
 }

@@ -6,7 +6,7 @@ const testimonials = [
     name: "Sarah Johnson",
     role: "Homeowner",
     content:
-      "ModernSpace Studio transformed our home into a stunning and functional space. Their attention to detail and personalized approach was outstanding.",
+      "DcInteriors transformed our home into a stunning and functional space. Their attention to detail and personalized approach was outstanding.",
     rating: 5,
   },
   {
@@ -20,7 +20,7 @@ const testimonials = [
     name: "Emma Wilson",
     role: "Property Developer",
     content:
-      "Professional, creative, and reliable. ModernSpace Studio delivered an exceptional space on time and within budget.",
+      "Professional, creative, and reliable. DcInteriors delivered an exceptional space on time and within budget.",
     rating: 5,
   },
 ];
@@ -31,9 +31,9 @@ export default function TestimonialsSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 animate-slide-up">
           <h2 className="mb-4">What Our Clients Say</h2>
-          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Hear from our clients about how ModernSpace Studio brought their
-            visions to life with creativity and precision.
+                    <p className="text-muted-foreground text-lg leading-relaxed">
+            Hear from our clients about how DcInteriors brought their
+            vision to life and created spaces they love.
           </p>
         </div>
 

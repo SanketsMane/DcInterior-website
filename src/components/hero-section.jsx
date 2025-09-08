@@ -24,17 +24,17 @@ export default function HeroSection() {
           <div className="flex items-center justify-center space-x-2 mb-6">
             <Sparkles className="h-6 w-6 text-accent" />
             <span className="text-accent font-medium">
-              Premium Interior Design by ModernSpace Studio
+              Premium Interior Design by DcInteriors - Pune Baner
             </span>
           </div>
 
           <h1 className="text-white mb-6 max-w-4xl mx-auto">
-            Turn Your Home or Office Into a
-            <span className="text-accent block">Work of Art</span>
+            Transform Your Space with Pune's
+            <span className="text-accent block">Premier Interior Designers</span>
           </h1>
 
           <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto leading-relaxed">
-            At ModernSpace Studio, we craft exceptional interiors that reflect your personality and elevate your lifestyle. From initial concept to final installation, we deliver spaces that inspire and impress.
+            Design Concept Interiors brings your vision to life in Pune Baner. We specialize in creating stunning residential and commercial spaces that blend functionality with aesthetic excellence.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -44,7 +44,7 @@ export default function HeroSection() {
               className="bg-primary hover:bg-primary/90 text-white"
             >
               <Link href="/portfolio" className="flex items-center space-x-2">
-                <span>Explore Our Projects</span>
+                <span>View Our Pune Projects</span>
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </Button>
@@ -54,7 +54,7 @@ export default function HeroSection() {
               size="lg"
               className="border-white hover:bg-white hover:text-black"
             >
-              <Link href="/contact">Book Your Free Consultation</Link>
+              <Link href="/contact">Free Consultation in Baner</Link>
             </Button>
           </div>
         </div>

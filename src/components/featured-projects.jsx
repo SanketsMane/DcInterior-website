@@ -11,7 +11,7 @@ const projects = [
     category: "Residential",
     image: "/featured1.jpeg",
     description:
-      "ModernSpace Studio transformed this home with clean lines, natural textures, and a calming atmosphere.",
+      "DcInteriors transformed this home with clean lines, natural textures, and a calming atmosphere.",
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const projects = [
     category: "Commercial",
     image: "/featured3.jpeg",
     description:
-      "A collaborative workspace crafted by ModernSpace Studio to boost productivity and style.",
+      "A collaborative workspace crafted by DcInteriors to boost productivity and style.",
   },
 ];
 
@@ -36,7 +36,7 @@ export default function FeaturedProjects() {
     <section className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 animate-slide-up">
-          <h2 className="mb-4">Featured Projects by ModernSpace Studio</h2>
+          <h2 className="mb-4">Featured Projects by DcInteriors</h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
             Explore some of our most recent, stylish interior design transformations crafted for our clients.
           </p>

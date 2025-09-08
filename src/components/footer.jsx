@@ -19,15 +19,22 @@ export default function Footer() {
             <Link href="/" className="flex items-center space-x-2">
               <Home className="h-8 w-8 text-primary" />
               <span className="text-xl font-bold text-foreground">
-                ModernSpace Studio
+                DcInteriors
               </span>
             </Link>
             <p className="text-muted-foreground text-sm">
-              Crafting stylish, functional interiors that reflect your personality and elevate your everyday living.
+              Design Concept Interiors - Pune Baner's trusted interior design experts. Transforming spaces with creativity and precision.
             </p>
             <div className="flex space-x-4">
+              <a 
+                href="https://www.instagram.com/designconceptinteriors8787/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                aria-label="Follow us on Instagram"
+              >
+                <Instagram className="h-5 w-5 text-muted-foreground hover:text-primary cursor-pointer transition-colors" />
+              </a>
               <Facebook className="h-5 w-5 text-muted-foreground hover:text-primary cursor-pointer transition-colors" />
-              <Instagram className="h-5 w-5 text-muted-foreground hover:text-primary cursor-pointer transition-colors" />
               <Twitter className="h-5 w-5 text-muted-foreground hover:text-primary cursor-pointer transition-colors" />
             </div>
           </div>
@@ -86,23 +93,29 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Contact Info</h3>
             <div className="space-y-2">
-              <div className="flex items-center space-x-2">
-                <MapPin className="h-4 w-4 text-primary" />
+              <div className="flex items-start space-x-2">
+                <MapPin className="h-4 w-4 text-primary mt-1 flex-shrink-0" />
                 <span className="text-muted-foreground text-sm">
-                  456 Modern Ave, New York, NY 10001
+                  Egale era Office no -102 near kirloskar brother ltd, Baner, Pune - 411045
                 </span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-primary" />
-                <span className="text-muted-foreground text-sm">
-                  (555) 987-6543
-                </span>
+                <a 
+                  href="tel:+919975458787" 
+                  className="text-muted-foreground text-sm hover:text-primary transition-colors"
+                >
+                  +91 9975458787
+                </a>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-primary" />
-                <span className="text-muted-foreground text-sm">
-                  hello@modernspacestudio.com
-                </span>
+                <a 
+                  href="mailto:designconcept.interior.dc@gmail.com" 
+                  className="text-muted-foreground text-sm hover:text-primary transition-colors"
+                >
+                  designconcept.interior.dc@gmail.com
+                </a>
               </div>
             </div>
           </div>
@@ -112,7 +125,7 @@ export default function Footer() {
         <div className="mt-8 pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-muted-foreground text-sm">
-              © 2025 ModernSpace Studio. All rights reserved.
+              © 2025 Design Concept Interiors (DcInteriors). All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link

@@ -8,10 +8,10 @@ export default function CallToAction() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-3xl mx-auto animate-slide-up">
           <h2 className="mb-6 text-white">Ready to Elevate Your Space?</h2>
-          <p className="text-xl text-white/90 mb-8 leading-relaxed">
-            At ModernSpace Studio, we transform your vision into stunning,
-            functional interiors. Book a free consultation today and start
-            creating the space you’ve always dreamed of.
+                    <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+            At Design Concept Interiors, we transform your vision into stunning,
+            functional spaces. From concept to completion, every detail is
+            crafted to perfection.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

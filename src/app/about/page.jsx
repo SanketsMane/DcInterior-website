@@ -2,47 +2,60 @@ import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import { Award, Users, Clock, Heart } from "lucide-react";
 
+export const metadata = {
+  title: "About DcInteriors - Premier Interior Designers in Pune Baner | Design Concept Interiors",
+  description: "Learn about Design Concept Interiors (DcInteriors) - Pune Baner's trusted interior design experts. With years of experience in residential & commercial projects near Kirloskar Brother Ltd.",
+  keywords: [
+    "about DcInteriors",
+    "interior designer Pune Baner",
+    "Design Concept Interiors team",
+    "interior design company Baner",
+    "best interior designers Pune",
+    "residential commercial interior design",
+  ],
+};
+
 const stats = [
   {
     icon: Users,
-    value: "800+",
-    label: "Satisfied Clients",
+    value: "500+",
+    label: "Happy Clients in Pune",
   },
   {
     icon: Award,
-    value: "70+",
-    label: "Industry Recognitions",
+    value: "50+",
+    label: "Successful Projects",
   },
   {
     icon: Clock,
-    value: "12+",
-    label: "Years of Expertise",
+    value: "8+",
+    label: "Years in Pune Market",
   },
   {
     icon: Heart,
-    value: "1500+",
+    value: "1000+",
     label: "Spaces Transformed",
   },
 ];
 
 const team = [
   {
-    name: "Emma Collins",
-    role: "Creative Director",
+    name: "Design Concept Team",
+    role: "Creative Directors",
     image: "/user1.jpeg",
-    bio: "Emma leads the vision of ModernSpace with a deep passion for human-centered design and innovation.",
+    bio: "Our creative team at DcInteriors brings expertise in modern design trends and Pune's architectural preferences.",
   },
   {
-    name: "Daniel Carter",
-    role: "Lead Architect",
+    name: "Project Management",
+    role: "Lead Coordinators",
     image: "/user2.jpeg",
-    bio: "Daniel brings expertise in architectural design and specializes in blending aesthetics with functionality.",
+    bio: "Our project managers ensure timely delivery and seamless execution of all interior design projects in Pune Baner.",
   },
   {
-    name: "Maya Patel",
-    role: "Client Success Manager",
+    name: "Client Relations",
+    role: "Customer Success",
     image: "/user3.jpeg",
-    bio: "Maya ensures every client journey is smooth and inspiring, from first meeting to final reveal.",
+    bio: "Our client relations team ensures every project journey is smooth and satisfying, from consultation to completion.",
   },
 ];
 
@@ -54,22 +67,23 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-slide-up">
-              <h1 className="mb-6">About ModernSpace Studio</h1>
+              <h1 className="mb-6">About Design Concept Interiors</h1>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Since 2012, ModernSpace Studio has been redefining interiors by
-                creating elegant, functional, and future-ready environments. 
-                We believe in crafting spaces that truly reflect the people who live and work in them.
+                Based in Baner, Pune, Design Concept Interiors (DcInteriors) has been 
+                transforming spaces across the city with innovative design solutions. 
+                We specialize in creating elegant, functional, and contemporary interiors 
+                that reflect the modern lifestyle of Pune residents.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Our philosophy is simple: every space tells a story. We combine 
-                creativity, innovation, and sustainability to make sure your story 
-                is timeless and inspiring.
+                Our philosophy is simple: every space tells a story. Located near 
+                Kirloskar Brother Ltd in Baner, we combine creativity, local expertise, 
+                and sustainability to make sure your story is timeless and inspiring.
               </p>
             </div>
             <div className="relative h-96 lg:h-[500px] animate-scale-in">
               <Image
                 src="/about.jpeg"
-                alt="Our creative studio"
+                alt="DcInteriors studio in Baner Pune"
                 fill
                 className="object-cover rounded-lg shadow-xl"
               />
