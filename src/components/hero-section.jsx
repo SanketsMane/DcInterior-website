@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom";
 import { Button } from "./ui/button";
 import { ArrowRight, Sparkles, Star, Award } from "lucide-react";
+import SafeImage from "./SafeImage";
 
 export default function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Parallax Effect */}
       <div className="absolute inset-0 z-0">
-        <img
+        <SafeImage
           src="/hero-bg.jpeg"
           alt="Luxury interior design showcase - Modern living space with elegant furniture and lighting"
           className="w-full h-full object-cover scale-105 transition-transform duration-700 ease-out"

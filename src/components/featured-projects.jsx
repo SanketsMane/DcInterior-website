@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Card, CardContent } from "./ui/card";
 import { Button } from "./ui/button";
 import { ArrowRight } from "lucide-react";
+import SafeImage from "./SafeImage";
 
 const projects = [
   {
@@ -49,7 +50,7 @@ export default function FeaturedProjects() {
               style={{ animationDelay: `${index * 0.2}s` }}
             >
               <div className="relative h-64 overflow-hidden">
-                <img
+                <SafeImage
                   src={project.image}
                   alt={project.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"

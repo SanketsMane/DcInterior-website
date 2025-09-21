@@ -24,6 +24,8 @@ export default defineConfig({
   },
   preview: {
     port: 4173,
-    host: true
+    host: true,
+    // Handle SPA routing for preview
+    historyApiFallback: true
   }
 })
