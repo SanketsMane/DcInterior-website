@@ -25,26 +25,6 @@ const stats = [
   },
 ];
 
-const team = [
-  {
-    name: "Design Concept Team",
-    role: "Creative Directors",
-    image: "/user1.jpeg",
-    bio: "Our creative team at DcInteriors brings expertise in modern design trends and Pune's architectural preferences.",
-  },
-  {
-    name: "Project Management",
-    role: "Lead Coordinators",
-    image: "/user2.jpeg",
-    bio: "Our project managers ensure timely delivery and seamless execution of all interior design projects in Pune Baner.",
-  },
-  {
-    name: "Client Relations",
-    role: "Customer Success",
-    image: "/user3.jpeg",
-    bio: "Our client relations team ensures every project journey is smooth and satisfying, from consultation to completion.",
-  },
-];
 
 export default function AboutPage() {
   return (
@@ -57,7 +37,7 @@ export default function AboutPage() {
       
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-primary/5 to-secondary/30">
-        <div className="container-max">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
               About DcInteriors
@@ -81,7 +61,7 @@ export default function AboutPage() {
 
       {/* Stats Section */}
       <section className="py-16 bg-background">
-        <div className="container-max">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
               <div key={index} className="text-center group">
@@ -100,7 +80,7 @@ export default function AboutPage() {
 
       {/* Mission Section */}
       <section className="py-20 bg-gradient-to-b from-secondary/30 to-background">
-        <div className="container-max">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <img 
@@ -150,46 +130,11 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="py-20 bg-background">
-        <div className="container-max">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Meet Our Expert Team
-            </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Our passionate team of designers, project managers, and craftsmen work together to bring your vision to life 
-              with precision and creativity.
-            </p>
-          </div>
-          
-          <div className="grid md:grid-cols-3 gap-8">
-            {team.map((member, index) => (
-              <Card key={index} className="overflow-hidden group hover:shadow-lg transition-shadow">
-                <CardContent className="p-0">
-                  <div className="relative overflow-hidden">
-                    <img 
-                      src={member.image} 
-                      alt={`${member.name} - ${member.role} at DcInteriors`}
-                      className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-                  </div>
-                  <div className="p-6">
-                    <h3 className="text-xl font-semibold mb-2">{member.name}</h3>
-                    <p className="text-primary font-medium mb-3">{member.role}</p>
-                    <p className="text-muted-foreground leading-relaxed">{member.bio}</p>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
+
 
       {/* Values Section */}
       <section className="py-20 bg-gradient-to-b from-secondary/30 to-background">
-        <div className="container-max">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Our Core Values

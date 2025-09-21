@@ -25,7 +25,7 @@ export default function HeroSection() {
       <div className="absolute top-1/2 right-8 w-2 h-2 bg-accent rounded-full animate-ping" />
 
       {/* Hero Content */}
-      <div className="relative z-10 container-max text-center">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-5xl mx-auto space-y-8">
           {/* Trust Indicators */}
           <div className="flex items-center justify-center space-x-6 mb-8 animate-fade-in opacity-90">
