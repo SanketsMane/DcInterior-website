@@ -13,17 +13,18 @@ export default function HeroSection() {
           alt="Luxury interior design showcase - Modern living space with elegant furniture and lighting"
           className="w-full h-full object-cover scale-105 transition-transform duration-700 ease-out"
           loading="eager"
+          priority={true}
         />
         <div className="absolute inset-0 bg-gradient-to-br from-black/50 via-black/40 to-black/60" />
         
         {/* Animated gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/20 via-transparent to-accent/20 animate-pulse opacity-30" />
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/20 via-transparent to-accent/20 opacity-30" />
       </div>
 
       {/* Decorative Elements */}
-      <div className="absolute top-20 left-10 w-20 h-20 border border-white/20 rounded-full animate-bounce opacity-60" />
-      <div className="absolute bottom-32 right-16 w-16 h-16 border border-accent/30 rotate-45 animate-pulse opacity-40" />
-      <div className="absolute top-1/2 right-8 w-2 h-2 bg-accent rounded-full animate-ping" />
+      <div className="absolute top-20 left-10 w-20 h-20 border border-white/20 rounded-full opacity-60" />
+      <div className="absolute bottom-32 right-16 w-16 h-16 border border-accent/30 rotate-45 opacity-40" />
+      <div className="absolute top-1/2 right-8 w-2 h-2 bg-accent rounded-full opacity-60" />
 
       {/* Hero Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -49,7 +50,7 @@ export default function HeroSection() {
           {/* Main Heading */}
           <div className="space-y-6 animate-slide-up">
             <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-6 py-3 text-white">
-              <Sparkles className="h-5 w-5 text-accent animate-pulse" />
+              <Sparkles className="h-5 w-5 text-accent" />
               <span className="font-medium text-sm lg:text-base">
                 Premium Interior Design Excellence in Pune Baner
               </span>
@@ -59,7 +60,7 @@ export default function HeroSection() {
               <span className="block text-4xl lg:text-5xl font-bold mb-2">
                 Transform Your Space into a
               </span>
-              <span className="block text-5xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-accent via-yellow-300 to-accent animate-pulse">
+              <span className="block text-5xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-accent via-yellow-300 to-accent">
                 Masterpiece of Design
               </span>
             </h1>
@@ -121,7 +122,7 @@ export default function HeroSection() {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
         <div className="flex flex-col items-center space-y-2 text-white/70">
           <div className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center">
             <div className="w-1 h-3 bg-white/50 rounded-full mt-2 animate-bounce"></div>
