@@ -16,12 +16,12 @@ export default function HeroSection() {
         <div className="absolute inset-0 bg-gradient-to-br from-black/50 via-black/40 to-black/60" />
         
         {/* Animated gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/20 via-transparent to-accent/20 animate-gradient-x opacity-30" />
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/20 via-transparent to-accent/20 animate-pulse opacity-30" />
       </div>
 
       {/* Decorative Elements */}
-      <div className="absolute top-20 left-10 w-20 h-20 border border-white/20 rounded-full animate-float opacity-60" />
-      <div className="absolute bottom-32 right-16 w-16 h-16 border border-accent/30 rotate-45 animate-pulse-gentle opacity-40" />
+      <div className="absolute top-20 left-10 w-20 h-20 border border-white/20 rounded-full animate-bounce opacity-60" />
+      <div className="absolute bottom-32 right-16 w-16 h-16 border border-accent/30 rotate-45 animate-pulse opacity-40" />
       <div className="absolute top-1/2 right-8 w-2 h-2 bg-accent rounded-full animate-ping" />
 
       {/* Hero Content */}
@@ -48,17 +48,17 @@ export default function HeroSection() {
           {/* Main Heading */}
           <div className="space-y-6 animate-slide-up">
             <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-6 py-3 text-white">
-              <Sparkles className="h-5 w-5 text-accent animate-pulse-gentle" />
+              <Sparkles className="h-5 w-5 text-accent animate-pulse" />
               <span className="font-medium text-sm lg:text-base">
                 Premium Interior Design Excellence in Pune Baner
               </span>
             </div>
 
             <h1 className="text-white font-serif leading-tight max-w-4xl mx-auto">
-              <span className="block text-fluid-4xl lg:text-fluid-5xl font-bold mb-2">
+              <span className="block text-4xl lg:text-5xl font-bold mb-2">
                 Transform Your Space into a
               </span>
-              <span className="block text-fluid-5xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-accent via-yellow-300 to-accent animate-gradient-x">
+              <span className="block text-5xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-accent via-yellow-300 to-accent animate-pulse">
                 Masterpiece of Design
               </span>
             </h1>
@@ -75,7 +75,7 @@ export default function HeroSection() {
             <Button
               asChild
               size="lg"
-              className="group bg-primary hover:bg-primary/90 text-white px-8 py-4 text-lg font-semibold rounded-xl shadow-smooth-lg hover:shadow-glow transition-all duration-300 border-2 border-transparent hover:border-accent/30"
+              className="group bg-primary hover:bg-primary/90 text-white px-8 py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-accent/30"
             >
               <Link to="/portfolio" className="flex items-center space-x-3">
                 <span>Explore Our Pune Projects</span>
@@ -87,7 +87,7 @@ export default function HeroSection() {
               asChild
               variant="outline"
               size="lg"
-              className="group bg-accent/20 backdrop-blur-md border-2 border-accent hover:border-accent text-white hover:bg-accent hover:text-black px-8 py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-accent/50 transition-all duration-300 animate-pulse-gentle"
+              className="group bg-accent/20 backdrop-blur-md border-2 border-accent hover:border-accent text-white hover:bg-accent hover:text-black px-8 py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-accent/50 transition-all duration-300 animate-pulse"
             >
               <Link to="/contact" className="flex items-center space-x-3">
                 <span>Free Consultation in Baner</span>
@@ -120,7 +120,7 @@ export default function HeroSection() {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce-gentle">
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <div className="flex flex-col items-center space-y-2 text-white/70">
           <div className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center">
             <div className="w-1 h-3 bg-white/50 rounded-full mt-2 animate-bounce"></div>
