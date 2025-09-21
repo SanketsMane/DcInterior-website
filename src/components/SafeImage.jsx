@@ -24,23 +24,23 @@ const SafeImage = ({ src, alt, className, loading = "lazy", ...props }) => {
   }
 
   return (
-    <>
+    <div className="relative">
       {!isLoaded && (
         <div 
-          className={`bg-gray-100 animate-pulse ${className}`}
+          className={`absolute inset-0 bg-gray-100 animate-pulse ${className}`}
           {...props}
         />
       )}
       <img
         src={src}
         alt={alt}
-        className={`${className} ${!isLoaded ? 'hidden' : ''}`}
+        className={`${className} ${!isLoaded ? 'opacity-0' : 'opacity-100'} transition-opacity duration-300`}
         loading={loading}
         onError={handleError}
         onLoad={handleLoad}
         {...props}
       />
-    </>
+    </div>
   );
 };
 

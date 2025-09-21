@@ -88,11 +88,11 @@ export default function HeroSection() {
               asChild
               variant="outline"
               size="lg"
-              className="group bg-accent/20 backdrop-blur-md border-2 border-accent hover:border-accent text-white hover:bg-accent hover:text-black px-8 py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-accent/50 transition-all duration-300 animate-pulse"
+              className="group bg-accent/20 backdrop-blur-md border-2 border-accent hover:border-accent text-white hover:bg-accent hover:text-black px-8 py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-accent/50 transition-all duration-300"
             >
               <Link to="/contact" className="flex items-center space-x-3">
                 <span>Free Consultation in Baner</span>
-                <div className="w-2 h-2 bg-green-400 rounded-full animate-ping" />
+                <div className="w-2 h-2 bg-green-400 rounded-full" />
               </Link>
             </Button>
           </div>
