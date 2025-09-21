@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://dcinteriors-website.onrender.com/sitemap.xml
+
+# Specific directives for search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Block access to admin or sensitive directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*.map$
